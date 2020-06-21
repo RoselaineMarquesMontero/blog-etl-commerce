@@ -95,6 +95,7 @@ public class TransformToLiferay {
         jsonObject.put("gtin", gtin);
         jsonObject.put("promoPrice", promoPrice);
         jsonObject.put("purchasable", purchasable);
+	jsonObject.put("published", true);
         jsonObject.put("manufacturerPartNumber", String.valueOf(manufacturerPartNumber));
         
         JSONArray jsonArray = new JSONArray();
